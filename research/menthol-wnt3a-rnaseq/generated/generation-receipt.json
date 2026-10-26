@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "generator": "terputer-report-generator-v2",
+  "specification_schema_version": 2,
+  "manifest": "research/menthol-wnt3a-rnaseq/report-spec.json",
+  "manifest_sha256": "2e4a0c1af31d70ec460a63c7efd95581d486accb0a325d642ba5becfc9cf109e",
+  "notebook": "notebooks/gse242559_menthol_wnt3a.ipynb",
+  "notebook_sha256": "2556f11ae261fe3b81eb90fd9e50e77cf8a4603be8068f0f9ca28179e1193543",
+  "executed_code_cells": 5,
+  "notebook_execution_receipt": "research/execution-receipts/gse242559_menthol_wnt3a.json",
+  "notebook_execution_receipt_sha256": "aa0808b7b223fb23f139bd8851a61adc57c701bce214cde4043d93d78f103a1d",
+  "artifact_sha256": {
+    "research/menthol-wnt3a-rnaseq/results/analysis_summary.json": "8bd9d6049e885ebd6bfbec709865d0972e55c444747a0c2ded65146e40247896",
+    "research/menthol-wnt3a-rnaseq/results/feature_effects.tsv.gz": "98971a080d3ba559fd5c1697f1df8df52f125d83bb5832f433ac7273c6d5d149",
+    "research/menthol-wnt3a-rnaseq/results/sample_qc.tsv": "931ce458b19b76af1c4c69d8caf25cbd5d8b3984c53ddc64e0dfc5e1154f1d08",
+    "research/menthol-wnt3a-rnaseq/results/target_markers.tsv": "cd65567e4ba3fed9ec67293af99bed8f455bf8e97de0dd435c0cc26c9d9d1821"
+  },
+  "input_sha256": {
+    "research/menthol-wnt3a-rnaseq/data/GSE242559_FPKM_anno.txt.gz": "fa3149865f0445ad95d5fdb757613f89018e72fd18edc0221b7757adf9044d30",
+    "research/menthol-wnt3a-rnaseq/sample_manifest.tsv": "eebeecc3a0cc2aa56bab90ddff2c0b1cd8d034ae77755f0bfa75168fcc4e527a",
+    "research/menthol-wnt3a-rnaseq/source_manifest.tsv": "b171232c6d7bc7e63f58e64af9dad38b6e9f9174dff1982398105c296742a14a"
+  },
+  "external_data_inputs": [
+    {
+      "path": "research/menthol-wnt3a-rnaseq/data/GSE242559_FPKM_anno.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE242nnn/GSE242559/suppl/GSE242559_FPKM_anno.txt.gz",
+      "sha256": "fa3149865f0445ad95d5fdb757613f89018e72fd18edc0221b7757adf9044d30"
+    }
+  ],
+  "claim_count": 8,
+  "observed_claim_count": 4,
+  "report_sha256": "f6732b9a4cceedada507acd80249dcda8d78d40819809c413c8473e4e73a0b25",
+  "ledger_sha256": "6a3d401b692f3f8b03dd2603621e160e6f2666848cdb8e2976bf29499a5d486c",
+  "limits": "Checks source URL syntax, local artifact presence, notebook execution metadata, and provenance; version 2 specifications also bind a recorded run to the notebook, observed-claim artifact hashes, and any declared local input hashes. Does not verify that a notebook read every declared input, live URL reachability, biological replication, or claim truth."
+}
