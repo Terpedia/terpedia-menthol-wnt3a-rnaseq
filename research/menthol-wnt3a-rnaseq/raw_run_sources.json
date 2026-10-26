@@ -1,0 +1,17 @@
+{
+  "accession": "GSE242559",
+  "bioproject": "PRJNA1013943",
+  "retrieved_at_utc": "2026-10-26T21:34:40.655974+00:00",
+  "geo_soft_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE242nnn/GSE242559/soft/GSE242559_family.soft.gz",
+  "geo_soft_gz_sha256": "a8e125aa856dfa212afe3727b9c1d9473974dad7776ce25b9ce6073f373c390d",
+  "ena_api_url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=study_accession%3D%22PRJNA1013943%22&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csecondary_sample_accession%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes%2Clibrary_layout&format=tsv&limit=0",
+  "ena_response_sha256": "15199428312744fa577c4af7ccd18ec87fd51052816928a87fa0abd700433560",
+  "sample_manifest_sha256": "eebeecc3a0cc2aa56bab90ddff2c0b1cd8d034ae77755f0bfa75168fcc4e527a",
+  "raw_run_manifest_sha256": "2ec952fcc8154de1370238545865e0a61901268ca2b869dbfff5a64ec0b74068",
+  "samples": 12,
+  "runs": 12,
+  "fastq_files": 24,
+  "total_fastq_bytes": 33399533782,
+  "reads_downloaded": false,
+  "counts_estimated": false
+}
